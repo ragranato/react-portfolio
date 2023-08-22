@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi My Name is Roberto</h2>
+        <h2>Hi, My Name is Roberto.</h2>
         <div className="prompt">
           <p>
             Welcome to my page! I am the software developer that puts your ideas
