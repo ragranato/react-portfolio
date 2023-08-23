@@ -3,6 +3,10 @@
     top: 7.5rem;
 
     .vertical-timeline:before {
-        background: midnightblue;
+        background: #3e497a;
+    }
+
+    span.vertical-timeline-element-date {
+        text-align: start;
     }
 }

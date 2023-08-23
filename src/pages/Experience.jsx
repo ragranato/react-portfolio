@@ -31,9 +31,9 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Metropolitan Specialty Physicians, Elmhurst, NY
+            Assistant Manager- Metropolitan Specialty Physicians
           </h3>
-          <p>Assistant Manager</p>
+          <p>Elmhurst, NY</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -42,9 +42,9 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            ProHealthcare Associates, Elmhurst, NY
+            Surgical Coordinator- ProHealthcare Associates
           </h3>
-          <p>Surgical Coordinator</p>
+          <p>Elmhurst, NY</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -53,9 +53,21 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Optum Tristate, Little Neck, NY
+            Urgent Care Center Manager- Optum Tristate
           </h3>
-          <p>Urgent Care Center Manager</p>
+          <p>Little Neck, NY</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2/2023-7/2023"
+          iconStyle={{ background: "midnightblue", color: "white" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Generation USA (ChooseU), Washington, DC (remote)
+          </h3>
+          <p>Junior Web Developer Program</p>
+          <p>Program Certificate</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
