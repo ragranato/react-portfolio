@@ -25,7 +25,7 @@ function Home() {
           <li className="item">
             <h2>Front-End</h2>
             <span>
-              ReactJS, JavaScript, HTML, CSS, SASS, BootStrap, FireBase
+              ReactJS, JavaScript, HTML/CSS, SASS, BootStrap, Tailwind CSS
             </span>
           </li>
           <li className="item">
