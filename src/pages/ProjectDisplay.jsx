@@ -14,7 +14,7 @@ function ProjectDisplay() {
       <p>
         <span>Skills:</span> {project.skills}
       </p>
-      <a href="https://ragranato.github.io/task-manager/" target='_blank'><GitHubIcon /></a>
+      <a href="https://github.com/ragranato/task-manager" target='_blank'><GitHubIcon /></a>
     </div>
   );
 }
