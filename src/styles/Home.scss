@@ -30,11 +30,23 @@
             font-size: 30px;
         }
 
-        svg {
-            font-size: 60px;
-            margin: 5px;
-            color: white;
+        a {
+            svg {
+                font-size: 60px;
+                margin: 5px;
+                color: white;
+                transition: 350ms ease-in;
+            }            
         }
+        a:hover {
+            svg {
+                padding: 5px;
+                margin: 5px;
+                color: white;
+            }            
+        }
+
+
     }
 }
 

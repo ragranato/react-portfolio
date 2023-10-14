@@ -19,6 +19,10 @@
     margin: 20px;
     font-size: 70px;
     cursor: pointer;
+    transition: 350ms ease-in;
+}
+.socialMedia svg:hover {    
+    padding: 5px;
 }
 
 

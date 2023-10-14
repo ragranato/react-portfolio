@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import '../styles/Navbar.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import Pdf from "../assets/Resume_Roberto_Granato.pdf";
 
 function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false)
@@ -35,6 +36,9 @@ function Navbar() {
         <Link className="link" to="/experience">
           Experience
         </Link>
+        <a href={Pdf} target="_blank" className='link'>
+          Resume
+        </a>
       </div>
     </div>
   );

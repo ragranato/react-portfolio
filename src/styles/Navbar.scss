@@ -7,6 +7,7 @@
     position: fixed;
     top: 0;
     z-index: 10;
+    font-family: "Arial", sans-serif;
 
     .links {
         width: 100%;
@@ -21,6 +22,12 @@
             text-decoration: none;
             margin: 20px;
             font-size: 25px;
+            transition: 350ms ease-in;
+        }
+        .link:hover {
+            text-shadow: 5px 5px 8px black;
+            font-size: 30px;
+            
         }
     }  
 }

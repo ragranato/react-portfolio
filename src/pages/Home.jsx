@@ -14,9 +14,19 @@ function Home() {
             Welcome to my page! I am the software developer that puts your ideas
             and products on the web!
           </p>
-          <EmailIcon />
-          <LinkedInIcon />
-          <GitHubIcon />
+          <a href="mailto:robert.granato@gmail.com" title="Send an Email">
+            <EmailIcon />
+          </a>
+          <a
+            href="http://www.linkedin.com/in/roberto-granato"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <LinkedInIcon />
+          </a>
+          <a href="http://github.com/ragranato" target="_blank" title="GitHub">
+            <GitHubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
