@@ -14,11 +14,11 @@
     }
 
     .projectList {
-        width: 70vw;
+        width: 80%;
         height: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        place-items: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
@@ -43,4 +43,7 @@
     h1 {
         font-size: 25px;
     }
+}
+.projectItem:hover {
+    cursor: pointer;
 }

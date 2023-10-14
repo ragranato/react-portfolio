@@ -8,9 +8,9 @@ function Projects() {
   return (
     <div className="projects">
       <h1>My Personal Projects</h1>
-      <div className="projectlist">
+      <div className="projectList">
         {projectList.map((project, idx) => {
-          return <ProjectItem id={idx} image={project.image} name={project.name} />
+          return <ProjectItem id={idx} key={idx} image={project.image} name={project.name}  />
         })}
       </div>
     </div>
